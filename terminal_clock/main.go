@@ -8,17 +8,13 @@ import (
 )
 
 func main() {
-
-
-
-
 	screen.Clear()
 
 	for {
 		screen.MoveTopLeft()
 
 		now := time.Now()
-		hour, min, sec, := now.Hour(), now.Minute(), now.Second()
+		hour, min, sec := now.Hour(), now.Minute(), now.Second()
 
 		clock := [...]placeholder{
 			digits[hour/10], digits[hour%10],
@@ -38,7 +34,7 @@ func main() {
 			}
 			fmt.Println()
 		}
-		fmt.Println()
+
 		time.Sleep(time.Second)
 	}
 
