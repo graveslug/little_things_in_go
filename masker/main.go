@@ -32,8 +32,8 @@ func main() {
 	//we want to loop over the bytes of the text
 	//not over its runes.
 	for i := 0; i < size; i++ {
-		//len(text[i:]) means that it grabs the remaining part
-		// of the text then checks if theres more room for a
+		// Checks the length of the following text
+		// if theres more room for a
 		// link thus ensures it never slices beyond its capacity.
 		// && compares the input to see if it matches
 		//the link pattern
@@ -41,14 +41,10 @@ func main() {
 			in = true
 			// fmt.Printf(`text[%d : %[1]d+%d] = `, i, nlink)
 			// fmt.Println(text[i : i+nlink])
-			//
 
 			// buff = append(buff, link...)
-
-			//since we use the above line twice we end up adding
-			//link twice to the string
 			//so the loop jumps after the link pattern
-			//duplication
+			//preventing duplication from occuring ex: http://http://
 			i += nlink
 		}
 		c := text[i]
