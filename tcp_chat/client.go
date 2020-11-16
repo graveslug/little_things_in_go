@@ -64,7 +64,7 @@ func (c *client) readInput() {
 }
 
 func (c *client) err(err error) {
-	c.conn.Write([]byte("ERR: " + err.Error() + "\n"))
+	c.conn.Write([]byte("err: " + err.Error() + "\n"))
 }
 
 func (c *client) msg(msg string) {
