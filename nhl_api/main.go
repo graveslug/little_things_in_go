@@ -22,8 +22,8 @@ func main() {
 	wrt := io.MultiWriter(os.Stdout, rosterFile)
 
 	log.SetOutput(wrt)
-
-	teams, err := nhlapi.GetAllTeams([]Team, error)
+	//input error here. 
+	teams, err := nhlapi.GetAllTeams()
 	if err != nil {
 		log.Fatalf("error while getting all teams: %v", err)
 	}
