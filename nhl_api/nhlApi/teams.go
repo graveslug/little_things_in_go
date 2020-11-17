@@ -49,19 +49,23 @@ type Team struct {
 }
 
 type nhlTeamsResponse struct {
-	Teams []Team `json:"teams"`
+	Teams []Team `json:"team"`
 }
 
 //GetAllTeams dsfg
 func GetAllTeams([]Team, error) {
-	res, err := http.Get(fmt.Sprintf("%s/teams", baseURL))
+	res, err := http.Get(fmt.Sprintf(baseURL))
 	if err != nil {
-		return nil, err
+		fmt.Println(err)
+		return
 	}
 	defer res.Body.Close()
 
 	var response nhlTeamsResponse
 	err = json.NewDecoder(res.Body).Decode(&response)
-
-	return response.Team, nil
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	return
 }
