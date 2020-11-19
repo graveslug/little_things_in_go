@@ -1,12 +1,6 @@
 zzz
-zzz
-zzz
-zzz
-sss
-sss
-sss
-aaa
-sss
-fff
-fff
-fff
+aa
+s
+f
+zz
+aa
