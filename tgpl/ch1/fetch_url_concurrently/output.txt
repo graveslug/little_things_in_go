@@ -1,0 +1,15 @@
+1s   44234 https://www.twitter.com
+0s   12897 https://www.google.com
+0s  219915 https://www.github.com
+1s  847533 https://www.alexa.com
+0s   12987 http://google.com
+0s   13084 http://google.co.in
+Get "http://baidu.com": EOF
+1s   36621 http://live.com
+1s   44233 http://twitter.com
+1s  219056 http://facebook.com
+1s  693650 http://yahoo.com
+1s  456129 http://youtube.com
+1s  494848 http://amazon.com
+2s  391430 http://taobao.com
+4s  102161 http://qq.com
