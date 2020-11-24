@@ -13,3 +13,15 @@ Get "http://baidu.com": EOF
 1s  494848 http://amazon.com
 2s  391430 http://taobao.com
 4s  102161 http://qq.com
+0.15s   12984 http://google.com
+0.19s   13084 http://google.co.in
+0.38s   36621 http://live.com
+0.41s      81 http://baidu.com
+0.45s   44161 http://twitter.com
+0.51s  219588 http://facebook.com
+0.59s  847533 https://www.alexa.com
+0.80s  689295 http://yahoo.com
+0.95s  455629 http://youtube.com
+1.09s  487138 http://amazon.com
+1.85s  391430 http://taobao.com
+3.06s  102191 http://qq.com
