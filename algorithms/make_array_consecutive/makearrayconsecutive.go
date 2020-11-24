@@ -1,4 +1,6 @@
 package makearrayconsecutive
+
+func makeArrayConsecutive(inputArray []int) int {
 	max := inputArray[0]
 	min := inputArray[0]
 
