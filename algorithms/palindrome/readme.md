@@ -1,4 +1,4 @@
-## Palindrome
+# Palindrome
 
 Given the string, check if its a palindrome
 Example:
