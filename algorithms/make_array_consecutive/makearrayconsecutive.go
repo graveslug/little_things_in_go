@@ -1,6 +1,4 @@
 package makearrayconsecutive
-
-func makeArrayConsecutive(inputArray []int) int {
 	max := inputArray[0]
 	min := inputArray[0]
 
@@ -19,7 +17,7 @@ func makeArrayConsecutive2(input []int) int {
 	max := input[0]
 	min := input[0]
 
-	for _, n = range input {
+	for _, n := range input {
 		if n > max {
 			max = n
 		}
