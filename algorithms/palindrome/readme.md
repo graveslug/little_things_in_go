@@ -1,5 +1,4 @@
 ## Palindrome
-
 Given the string, check if its a palindrome
 Example:
 for inputString = "aabaa", the output should be true
