@@ -11,6 +11,5 @@ func reverseAString(str string) string {
 }
 
 func main() {
-	input := "yeah, I guess I'm 死"
-	fmt.Println(reverseAString(input))
+	fmt.Println(reverseAString("yeah, I guess I'm 死"))
 }
