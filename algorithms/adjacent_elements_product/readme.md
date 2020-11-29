@@ -4,6 +4,6 @@ Given an array of integers, find the pair of adjacent elements that has the larg
 
 input [1,3,-5,8,3]
 
-output 11
+output 24
 
 because 8,3 are the largest adjacent pair
