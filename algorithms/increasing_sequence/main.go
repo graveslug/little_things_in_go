@@ -8,8 +8,8 @@ func increasingSequence(sequence []int) bool {
 			c1++
 		}
 	}
-	for i := 0; i < len(sequence)-2; i++ {
-		if sequence[i] >= sequence[i+2] {
+	for j := 0; j < len(sequence)-2; j++ {
+		if sequence[j] >= sequence[j+2] {
 			c2++
 		}
 	}
