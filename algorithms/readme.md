@@ -5,4 +5,5 @@ Simple everyday algorithms I've come across and worked through in Go. In general
 ## todo
 
 Create test cases.
+
 Add couple more reasonable solutions to sparse solutions
