@@ -8,19 +8,22 @@ a 1 interesting polygon is just a square with a length of one.
 
 An n-interesting pologon is obtained by taking n - 1-interesting pologygon and appending 1-interesting polygon to the sides of each open side.
 
-n = 1 []
+   [] n = 1
+
          []
-n = 2  [][][]
+       [][][] n = 2
          []
+
             []
           [][][]
-n=3     [][][][][]
+        [][][][][] n = 3
           [][][]
             []
+
                []
              [][][]
            [][][][][]
-n = 4    [][][][][][][]
+         [][][][][][][] n = 4
            [][][][][]
              [][][]
                []
